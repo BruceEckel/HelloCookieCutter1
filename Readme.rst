@@ -9,6 +9,8 @@ Cookiecutter takes a source directory tree and copies it into your new
 project. It replaces all the names that it finds surrounded by *templating
 tags* ``{{`` and ``}}`` with names that it finds in the file
 ``cookiecutter.json``. That's basically it.
+.. [1] You can also run *hooks* before and/or after generation, but that's
+more complex than what we want to cover here.
 
 The replaced names can be file names, directory names, and strings inside
 files.
