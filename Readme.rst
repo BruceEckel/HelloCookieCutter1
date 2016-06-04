@@ -64,4 +64,17 @@ directory:
 	    "greeting_recipient": "Bob"
 	}
 
-Now we can actually run Cookiecutter
+Now we can actually run Cookiecutter and create a new project from our template:
+
+.. code-block:: bash
+
+	$ cookiecutter C:\Users\bruce\Documents\Git\HelloCookieCutter1
+	repo_name [Hello]:
+	app_name [Go]:
+	greeting_recipient [Bob]:
+
+Notice that Cookiecutter tells us what the default name for each item is, and gives us the option
+of replacing that name with something new. In this case, I just pressed ``Return`` for each one,
+to accept all the defaults.
+
+Now we have a new directory called ``Hello``
