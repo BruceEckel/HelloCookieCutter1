@@ -105,7 +105,8 @@ Now we have a generated directory called ``Hello``, containing a file ``Go.py``.
 Voila! Instant generated project!
 
 .. note::
-	**Note**: The project we've created here happens to be Python, but Cookiecutter is just replacing
+
+	The project we've created here happens to be Python, but Cookiecutter is just replacing
 	templated items with names it looks up in ``cookiecutter.json``, so you can produce projects of
 	any kind, including projects that aren't programs.
 
