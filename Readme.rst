@@ -30,7 +30,7 @@ Your First Cookiecutter
 
 To get started, create a directory somewhere on your computer. The name of
 this directory will be the name of your Cookiecutter template, but it doesn't
-constrain anything else --- the generated project doesn't need to use the
+constrain anything else--the generated project doesn't need to use the
 template name, for example. Our project will be called ``HelloCookieCutter1``:
 
 .. code-block:: bash
