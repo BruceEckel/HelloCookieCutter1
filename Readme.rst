@@ -153,5 +153,5 @@ cookiecutters
 <https://cookiecutter.readthedocs.io/en/latest/readme.html #categories-of-cookiecutters>`_ 
 first!
 
-.. [1] You can also run *hooks* before and/or after generation, but that's
-more complex than what we want to cover here.
+.. [1] 	You can also run *hooks* before and/or after generation, but that's
+		more complex than what we want to cover here.
