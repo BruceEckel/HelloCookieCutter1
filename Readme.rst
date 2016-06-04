@@ -115,7 +115,7 @@ projects that aren't programs.
 This is nice, but what if you want to share your Cookiecutter template with
 everyone on the Internet? The easiest way is to upload it to a version control
 repository. As you might have guessed by the ``Git`` subdirectory, this
-example is on Gihub. Conveniently, Cookiecutter can build a project directly
+example is on GitHub. Conveniently, Cookiecutter can build a project directly
 from an internet repository, like the one for this very example. For variety,
 this time we'll replace the values from ``cookiecutter.json`` with our own:
 
@@ -140,7 +140,7 @@ this time we'll replace the values from ``cookiecutter.json`` with our own:
 Same effect, but this time produced from the Internet! You'll notice that even
 though it says ``Cloning into 'HelloCookieCutter1'...``, you don't see any
 directory called ``HelloCookieCutter1`` in your local directory. Cookiecutter
-has it's own storage area for cookiecutters, which is in your home directory
+has its own storage area for cookiecutters, which is in your home directory
 in a subdirectory called ``.cookiecutters`` (the leading ``.`` hides the directory
 on most operating systems). You don't need to do anything with this directory
 but it can sometimes be useful to know where it is.

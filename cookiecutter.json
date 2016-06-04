@@ -1,5 +1,5 @@
 {
-    "repo_name": "Hello",
-    "app_name": "Go",
-    "greeting_recipient": "Bob"
-} 
+    "directory_name": "Hello",
+    "file_name": "Howdy",
+    "greeting_recipient": "Julie"
+}   
