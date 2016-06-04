@@ -14,8 +14,8 @@ The replaced names can be file names, directory names, and strings inside
 files.
 
 With Cookiecutter, you can easily bootstrap a new project from a standard
-form, which means you skip all the usual mistakes in trying to get a new
-project going.
+form, which means you skip all the usual mistakes when starting a new
+project.
 
 Before you can do anything in this example, you must have Python installed on
 your machine. Go to the `Python Website <https://www.python.org/>`_ and follow
