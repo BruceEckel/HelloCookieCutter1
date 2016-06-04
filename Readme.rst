@@ -30,7 +30,7 @@ Your First Cookiecutter
 
 To get started, create a directory somewhere on your computer. The name of
 this directory will be the name of your Cookiecutter template, but it doesn't
-constrain anything else&emdash;the generated project doesn't need to use the
+constrain anything else---the generated project doesn't need to use the
 template name, for example. Our project will be called ``HelloCookieCutter1``:
 
 .. code-block:: bash
@@ -39,7 +39,7 @@ template name, for example. Our project will be called ``HelloCookieCutter1``:
     $ cd HelloCookieCutter1
 
 Inside this directory, we create the directory tree to be copied into the
-generated project. We want to be able to generate a new name for this directory, so
+generated project. We want to generate a name for this directory, so
 we put the directory name in templating tags:
 
 .. code-block:: bash
@@ -103,6 +103,11 @@ Now we have a generated directory called ``Hello``, containing a file ``Go.py``.
 	Hello, Bob!
 
 Voila! Instant generated project!
+
+.. note::
+	**Note**: The project we've created here happens to be Python, but Cookiecutter is just replacing
+	templated items with names it looks up in ``cookiecutter.json``, so you can produce projects of
+	any kind, including projects that aren't programs.
 
 This is nice, but what if you want to share your Cookiecutter template with everyone on the Internet?
 The easiest way is to upload it to a version control repository. As you might have guessed by the ``Git``
