@@ -83,7 +83,8 @@ Cookiecutter can look up all our templated items. This file goes in our
 Now we can actually run Cookiecutter and create a new project from our
 template. Move to a directory where you want to create the new project. Then
 run Cookiecutter and hand it the directory where the template lives. On my
-machine, it happens to be under the ``Git`` directory:
+(Windows, so the slashes go back instead of forward) machine, this happens to
+be under the ``Git`` directory:
 
 .. code-block:: bash
 
