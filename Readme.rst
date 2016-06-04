@@ -18,7 +18,7 @@ form, which means you skip all the usual mistakes in trying to get a new
 project going.
 
 Before you can do anything in this example, you must have Python installed on
-your machine. Go to `The Python Website <https://www.python.org/>`_ and follow
+your machine. Go to the `Python Website <https://www.python.org/>`_ and follow
 the instructions there. This includes the ``pip`` installer tool. Now run:
 
 .. code-block:: bash
@@ -30,7 +30,7 @@ Your First Cookiecutter
 
 To get started, create a directory somewhere on your computer. The name of
 this directory will be the name of your Cookiecutter template, but it doesn't
-constrain anything else---the generated project doesn't need to use the
+constrain anything else --- the generated project doesn't need to use the
 template name, for example. Our project will be called ``HelloCookieCutter1``:
 
 .. code-block:: bash
