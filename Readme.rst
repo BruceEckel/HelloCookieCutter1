@@ -141,7 +141,7 @@ Same effect, but this time produced from the Internet! You'll notice that even
 though it says ``Cloning into 'HelloCookieCutter1'...``, you don't see any
 directory called ``HelloCookieCutter1`` in your local directory. Cookiecutter
 has it's own storage area for cookiecutters, which is in your home directory
-in a subdirectory called `.cookiecutters` (the leading `.` hides the directory
+in a subdirectory called ``.cookiecutters`` (the leading ``.`` hides the directory
 on most operating systems). You don't need to do anything with this directory
 but it can sometimes be useful to know where it is.
 
