@@ -9,9 +9,22 @@ Cookiecutter takes a source directory tree and copies it into your new
 project. It replaces all the names that it finds surrounded by the
 **templating tags** ``{{`` and ``}}`` with names that it finds in the file
 ``cookiecutter.json``. These names can be file names, directory names, and
-strings inside files. That's basically it. This way, you can easily bootstrap
-a new project from a standard form, which means you skip all the usual
-mistakes in trying to get a new project going.
+strings inside files. That's basically it. 
+
+With Cookiecutter, you can easily bootstrap a new project from a standard
+form, which means you skip all the usual mistakes in trying to get a new
+project going.
+
+Before you can do anything in this example, you must have Python installed on
+your machine. Go to `The Python Website<https://www.python.org/>`_ and follow
+the instructions there. This includes the ``pip`` installer tool. Now run:
+
+.. code-block:: bash
+
+	$ pip install cookiecutter
+
+Your First Cookiecutter
+-----------------------
 
 To get started, create a directory somewhere on your computer. The name of
 this directory will be the name of your Cookiecutter template, but it doesn't
@@ -25,7 +38,7 @@ template name, for example. Our project will be called ``HelloCookieCutter1``:
 
 Inside this directory, we create the directory tree to be copied into the
 generated project. We want to be able to generate a new name for this directory, so
-we put the name in templating tags:
+we put the directory name in templating tags:
 
 .. code-block:: bash
 
@@ -52,9 +65,9 @@ file so it contains:
 
 	print("Hello, {{cookiecutter.greeting_recipient}}!")
 
-There's one more thing we need, which is the ``cookiecutter.json`` file itself, so that
-Cookiecutter can look up all our templated items. This file goes in our ``HelloCookieCutter1``
-directory:
+To finish, we create the ``cookiecutter.json`` file itself, so that
+Cookiecutter can look up all our templated items. This file goes in our
+``HelloCookieCutter1`` directory, and contains all the names we've used:
 
 .. code-block:: json
 
@@ -64,7 +77,10 @@ directory:
 	    "greeting_recipient": "Bob"
 	}
 
-Now we can actually run Cookiecutter and create a new project from our template:
+Now we can actually run Cookiecutter and create a new project from our
+template. Move to a directory where you want to create the new project. Then
+run Cookiecutter and hand it the directory where the template lives. On my
+machine, it happens to be under the ``Git`` directory:
 
 .. code-block:: bash
 
@@ -77,4 +93,15 @@ Notice that Cookiecutter tells us what the default name for each item is, and gi
 of replacing that name with something new. In this case, I just pressed ``Return`` for each one,
 to accept all the defaults.
 
-Now we have a new directory called ``Hello``
+Now we have a generated directory called ``Hello``, containing a file ``Go.py``. When we run it:
+
+.. code-block:: bash
+
+	$ python Go.py
+	Hello, Bob!
+
+Voila! Instant generated project!
+
+This is nice, but what if you want to share your Cookiecutter template with everyone on the Internet?
+The easiest way is to upload it to a version control repository. As you might have guessed by the ``Git``
+subdirectory, this example is on Gihub
