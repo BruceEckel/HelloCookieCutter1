@@ -8,9 +8,7 @@ and see how it works.
 Cookiecutter takes a source directory tree and copies it into your new
 project. It replaces all the names that it finds surrounded by *templating
 tags* ``{{`` and ``}}`` with names that it finds in the file
-``cookiecutter.json``. That's basically it.
-.. [1] You can also run *hooks* before and/or after generation, but that's
-more complex than what we want to cover here.
+``cookiecutter.json``. That's basically it.[1]_
 
 The replaced names can be file names, directory names, and strings inside
 files.
@@ -154,3 +152,6 @@ are starting a new project, make sure you look at the `list of pre-defined
 cookiecutters 
 <https://cookiecutter.readthedocs.io/en/latest/readme.html #categories-of-cookiecutters>`_ 
 first!
+
+.. [1] You can also run *hooks* before and/or after generation, but that's
+more complex than what we want to cover here.
