@@ -40,7 +40,8 @@ template name, for example. Our project will be called ``HelloCookieCutter1``:
 
 Inside this directory, we create the directory tree to be copied into the
 generated project. We want to generate a name for this directory, so we put
-the directory name in templating tags:
+the directory name in templating tags ``{{`` and ``}}`` (yes, you type the
+double-curly-braces onto the command line, just as you see them here):
 
 .. code-block:: bash
 
