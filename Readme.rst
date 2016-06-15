@@ -103,6 +103,7 @@ Now we have a generated directory called ``Hello``, containing a file
 
 .. code-block:: bash
 
+	$ cd Hello
 	$ python Howdy.py
 	Hello, Julie!
 
