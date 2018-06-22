@@ -134,10 +134,10 @@ this time we'll replace the values from ``cookiecutter.json`` with our own:
 	file_name [Howdy]: Zing
 	greeting_recipient [Julie]: Roscoe
 
-	$ cd Fabulous
+	$ cd Hello
 
-	$ python Zing.py
-	Hello, Roscoe!
+	$ python Howdy.py
+	Hello, Julie!
 
 Same effect, but this time produced from the Internet! You'll notice that even
 though it says ``Cloning into 'HelloCookieCutter1'...``, you don't see any
