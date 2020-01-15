@@ -152,7 +152,7 @@ you'll know how to eliminate that duplication using cookiecutter. But even
 better, lots of people have created and published cookiecutters, so when you
 are starting a new project, make sure you look at the `list of pre-defined
 cookiecutters 
-<https://cookiecutter.readthedocs.io/en/latest/readme.html #categories-of-cookiecutters>`_ 
+<https://cookiecutter.readthedocs.io/en/latest/README.html #categories-of-cookiecutters>`_ 
 first!
 
 .. [1] 	You can also run *hooks* before and/or after generation, but that's
