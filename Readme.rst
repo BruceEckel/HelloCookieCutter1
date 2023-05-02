@@ -41,7 +41,7 @@ template name, for example. Our project will be called ``HelloCookieCutter1``:
 Inside this directory, we create the directory tree to be copied into the
 generated project. We want to generate a name for this directory, so we put
 the directory name in templating tags ``{{`` and ``}}`` (yes, you type the
-double-curly-braces onto the command line, just as you see them here):
+double-curly-braces onto the command line, just as you see them here): [2]_
 
 .. code-block:: bash
 
@@ -157,3 +157,15 @@ first!
 
 .. [1] 	You can also run *hooks* before and/or after generation, but that's
 		more complex than what we want to cover here.
+
+.. [2]  Note that in some shells, you will need to put quote marks around the 
+		double curly braces to prevent them from being misinterpreted
+		according to the shell's variable substition rules. Use this
+		syntax if you encounter the error, "Cannot evaluate parameter
+		Path' because its argument is specified as a script block and
+		there is no input":
+
+		.. code-block:: powershell
+
+			$ mkdir "{{cookiecutter.directory_name}}"
+			$ cd "{{cookiecutter.directory_name}}"
