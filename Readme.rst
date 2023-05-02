@@ -165,7 +165,7 @@ first!
 		Path' because its argument is specified as a script block and
 		there is no input":
 
-		.. code-block:: bash
+		.. code-block:: powershell
 
 			$ mkdir "{{cookiecutter.directory_name}}"
 			$ cd "{{cookiecutter.directory_name}}"
